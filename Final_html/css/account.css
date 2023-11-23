@@ -1,0 +1,58 @@
+.header{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    color:black;
+    padding-left: 0;
+}
+.header a {
+    color:black;
+    width:100%;
+}
+.user-profile {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 20px;
+    display:flex;
+    background-color: beige;
+}
+.profile-img {
+    width:30%;
+    background-color: black;
+}
+.profile-details {
+    margin-left: 20px;
+}
+.profile-details p a {
+    color:black;
+}
+.user-book-list {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book-list {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.book-list a {
+    width:15%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.book-list a img {
+    width:100%;
+}
+.book-list .more {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

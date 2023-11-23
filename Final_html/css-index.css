@@ -1,0 +1,80 @@
+body {
+    display: block;
+    font-family: Playfair Display, 'Playfair Display', 'Playfair Display-fallback', sans-serif;
+                                                
+}
+.welcome-bar {
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    max-height: 680px;
+    background-color: rgb(242, 242, 242);
+    font-family: Playfair Display, 'Playfair Display', serif;
+    font-size: 40px;
+}
+.welcome-text {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 50%;
+}
+.welcome-bar .welcome-text h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.welcome-bar .welcome-books {
+    position: relative;
+}
+.welcome-bar .welcome-books .background-img  {
+    width:100%;
+    position: absolute;
+    z-index: 0;
+}
+.footer {
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(13, 13, 19);
+}
+.welcome-bar .welcome-books .welcome-books-grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-width: 618px;
+    min-height: 672px;
+    width:100%;
+    height:100%;
+    align-items: end;
+}
+
+.welcome-bar .welcome-books .welcome-books-grid img{
+    height:100%;
+    position:relative;
+    transition: all 1s ease;
+}
+
+.welcome-bar .welcome-books .welcome-books-grid .item{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width:100%;
+    height:100%;
+    margin-top: 0;
+    padding-bottom: 10px;
+    position: relative;
+}
+.carousel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+.carousel-item img {
+    height: 100%;
+}

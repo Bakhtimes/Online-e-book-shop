@@ -1,0 +1,45 @@
+.header{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+}
+.primary-content {
+    display: flex;
+    width:80%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.content-body {
+    display: flex;
+    flex-direction: row;
+}
+.content-body form {
+    width:50%;
+    padding: 15px;
+}
+.content-body input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;;
+}
+.content-body textarea {
+    width:100%;
+    border:none;
+    outline:none;
+    border: 1px solid #ccc;
+}
+.info .header {
+    width:auto;
+    font-size: 20px;
+}
+.info {
+    padding:10px;
+}
